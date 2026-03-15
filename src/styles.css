@@ -1,0 +1,94 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #12121a;
+  color: #f0f2ff;
+}
+
+main {
+  padding: 1rem 1.5rem 2rem;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+.sub {
+  margin-top: 0;
+  color: #97a1d0;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+button,
+select,
+input {
+  background: #1f2434;
+  border: 1px solid #3c4361;
+  color: #f0f2ff;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.dest input {
+  margin-left: 0.5rem;
+  min-width: 300px;
+}
+
+.status {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #171c2a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.65rem;
+  border-bottom: 1px solid #2f3550;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tr:hover {
+  background: #212842;
+}
+
+tr.selected {
+  background: #2b3b6f;
+}
+
+.logs {
+  margin-top: 1rem;
+}
+
+pre {
+  background: #0d111b;
+  border: 1px solid #2f3550;
+  border-radius: 8px;
+  padding: 0.75rem;
+  max-height: 200px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
